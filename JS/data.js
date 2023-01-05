@@ -1,5 +1,4 @@
-const requestUrl = "";
-const products = document.querySelector(".buildCards");
+const requestUrl = "https://greenz081081.github.io/My-YouTube-Tutorials/JSON/data.json";
 
 async function getProducts () {
     let response = await fetch(requestUrl);
